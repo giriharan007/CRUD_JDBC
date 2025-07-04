@@ -3,9 +3,9 @@ import java.sql.*;
 public class CRUD_JDBC {
   private Connection con;
   CRUD_JDBC()throws Exception{
-    String url="jdbc:mysql://localhost:3306/jdbc";
-    String user="root";
-    String password="Giri";
+    String url="jdbc:mysql://localhost:3306/use your database name";
+    String user="use your username";
+    String password="use your password";
     con=DriverManager.getConnection(url, user, password);
     System.out.println("*************************  JAVA is connected to MYSQL successfull  **************************");
     System.out.println();
